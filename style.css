@@ -1,0 +1,36 @@
+/* Style Sheet for Landing Page ToP */
+div {
+    font-family: 'Indie Flower', serif;
+    color: orange;
+    }
+
+.bananas {
+    height: 208px;   
+}
+.head-container {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    }
+
+    .head-container .h1 {
+        flex: auto;
+        padding: 56px;
+        font-size: 64px;
+        }
+
+    .head-container .link {
+        flex: auto;
+        flex-direction: row-reverse;
+        margin-bottom: 0;
+        margin-top: auto;
+        padding: 8px;
+        font-size: 32px;
+        }
+
+        .button {
+            border-color:lightblue;
+            border-width: 5px;
+            box-shadow: 5px 5px 8px #1f2937;
+            
+        }

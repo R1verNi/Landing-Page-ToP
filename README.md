@@ -1,1 +1,3 @@
 # Landing-Page-ToP
+Standard web page design as per The Odin Projects guide to start with...
+...will update and transform into main portfolio landing page to showcase work.
