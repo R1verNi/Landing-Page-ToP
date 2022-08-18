@@ -1,13 +1,13 @@
 /* Style Sheet for Landing Page ToP */
 div {
     font-family: 'Indie Flower', serif;
-    color: orange;
+    color: seagreen;
     }
 
 .bananas {
-    height: 208px;   
+    height: 164px;   
 }
-.head-container {
+.head-container, .CTA {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
@@ -28,9 +28,44 @@ div {
         font-size: 32px;
         }
 
-        .button {
-            border-color:lightblue;
-            border-width: 5px;
-            box-shadow: 5px 5px 8px #1f2937;
-            
-        }
+.CTA button {
+    flex: auto;
+    margin: 0px auto 16px auto;
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: #a6f5ca;
+    font-family: 'Indie Flower', serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1f2937
+    border-color:lightblue;
+    border-width: 3px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px seagreen;
+    }
+
+.CTA div {
+    flex: auto;
+    width: 50%;
+    padding: 8px 32px;
+    font-size: 21px;
+}
+
+.CTA h2 {
+    flex: auto;
+    margin: 32px auto 8px auto;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.CTA .image-box {
+    flex: auto;
+    padding: 10px;
+    margin: 32px;
+    height: 300px;
+    width: 380px;
+    display: block;
+    background-color: #a6f5ca;
+}
