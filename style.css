@@ -119,6 +119,7 @@ h2 {
 .quote-section {
     flex-direction: column;
     padding: 3em;
+    border-radius: 1em;
 }
 
 .quote {
@@ -132,4 +133,38 @@ h2 {
     text-align: end;
     font-style: italic;
     font-style: bold;
+    }
+
+.CTA-base {
+    display: flex;
+    background-color: darkseagreen;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    padding: 32m;
+    border-radius: 1em;
 }
+
+.CTA-base button {
+    flex: auto;
+    margin: 0px auto 16px auto;
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: #a6f5ca;
+    font-family: 'Indie Flower', serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1f2937;
+    border-color: lightblue;
+    border-width: 3px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px seagreen;
+ }
+
+ footer {
+    text-align: right;
+    text-shadow: .3em .3em .4em #1f2937;
+    padding-right: 4em;
+
+ }
