@@ -1,23 +1,30 @@
 /* Style Sheet for Landing Page ToP */
-div {
+
+html {
     font-family: 'Indie Flower', serif;
     color: seagreen;
-    }
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
 
 .bananas {
     height: 164px;   
 }
-.head-container, .CTA {
+
+.head-container, .CTA, .quote-section {
     background-color: #1f2937;
-    color: #f9faf8;
+    color: #a6f5ca;
     display: flex;
-    }
+}
 
     .head-container .h1 {
         flex: auto;
         padding: 56px;
         font-size: 64px;
-        }
+    }
 
     .head-container .link {
         flex: auto;
@@ -26,7 +33,7 @@ div {
         margin-top: auto;
         padding: 8px;
         font-size: 32px;
-        }
+    }
 
 .CTA button {
     flex: auto;
@@ -38,29 +45,26 @@ div {
     font-family: 'Indie Flower', serif;
     font-size: 22px;
     font-weight: bold;
-    color: #1f2937
-    border-color:lightblue;
+    color: #1f2937;
+    border-color: lightblue;
     border-width: 3px;
     border-radius: 10px;
     box-shadow: 3px 3px 4px seagreen;
-    }
+}
 
-.CTA div {
+.CTAdiv {
     flex: auto;
     width: 50%;
     padding: 8px 32px;
     font-size: 21px;
 }
 
-.CTA h2 {
+.CTAh2 {
     flex: auto;
     margin: 32px auto 8px auto;
-    font-size: 40px;
-    font-weight: bold;
-    
-}
+    }
 
-.CTA .image-box {
+.CTA .CTAimage-box {
     flex: auto;
     padding: 10px;
     margin: 32px;
@@ -68,4 +72,64 @@ div {
     width: 380px;
     display: block;
     background-color: #a6f5ca;
+}
+
+.image-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+    .ib-h2 {
+        flex: auto;
+        text-align: top;
+        padding: 1em;
+    }
+
+    .pictxt {
+        display: flex;
+        flex-direction: row;
+    }
+
+.pic {
+    display: flex;
+    text-align: center;
+    max-width: 380px;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.picbrdr {
+    flex: 1;
+    max-width: 200px;
+    padding: 1px;
+    border: 5px solid seagreen;
+    border-radius: 15px;
+}
+
+.txt {
+    flex: 1;
+    max-width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0.7em;    
+}   
+
+.quote-section {
+    flex-direction: column;
+    padding: 3em;
+}
+
+.quote {
+    flex: 1;
+    text-align: center;
+    font-size: 28px;
+}
+
+.author {
+    flex: 1;
+    text-align: end;
+    font-style: italic;
+    font-style: bold;
 }
